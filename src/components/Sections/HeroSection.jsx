@@ -198,7 +198,7 @@ const HeroSection = () => {
                 <motion.button
                   whileHover={{y:-2}}
                   whileTap={{scale:0.98}}
-                  onClick={() => scrollToSection("work")}
+                  onClick={() => scrollToSection("projects")}
                   className='bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-75'
                 >
                   View Work
@@ -356,7 +356,7 @@ const HeroSection = () => {
                     <motion.button
                     whileHover={{y:-2}}
                     whileTap={{scale:0.98}}
-                    onClick={() => scrollToSection("work")}
+                    onClick={() => scrollToSection("projects")}
                     className='bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-75'
                     >
                       View Work
