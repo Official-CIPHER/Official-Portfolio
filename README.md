@@ -1,6 +1,6 @@
 # Let's create the README.md file with the provided content.
 
-readme_content = """# 🌟 Official Portfolio  
+🌟 Official Portfolio  
 
 [![Live Demo](https://img.shields.io/badge/Live%20Portfolio-Click%20Here-brightgreen?style=for-the-badge)](https://vishalkumar-cipher.netlify.app/)  
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Official-CIPHER.Official-Portfolio)  
