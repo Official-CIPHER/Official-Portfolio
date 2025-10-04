@@ -26,6 +26,7 @@ import project6 from "../assets/images/project6.png"
 import project7 from "../assets/images/project7.png"
 import project8 from "../assets/images/project8.png"
 import project9 from "../assets/images/project9.png"
+import project10 from "../assets/images/project10.png"
 
 
 
@@ -168,19 +169,19 @@ export const PROJECTS = [
     githubUrl: "https://github.com/Official-CIPHER/Portfolio",
     featured: false,
     category: "Frontend",
-  },  
+  },
   {
     id: 5,
-    title: "My-Movie",
+    title: "SnapUI",
     description:
-      "Movie search app using external API to display trending and searched movies.",
-    image: project4,
-    tags: ["React", "API", "Material UI"],
-    liveUrl: "https://mymovies-cipher.netlify.app/",
-    githubUrl: "https://github.com/Official-CIPHER/My-Movies",
+      "A modern AI powered component builder which helps to make components fast.",
+    image: project10,
+    tags: ["React", "Tailwind", "Gemini AI"],
+    liveUrl: "https://snapui-cipher.netlify.app/",
+    githubUrl: "https://github.com/Official-CIPHER/SnapUI",
     featured: false,
-    category: "Frontend",
-  },
+    category: ["Frontend" , "AI"],
+  },  
   {
     id: 6,
     title: "Tic Tac Toe",
@@ -226,6 +227,18 @@ export const PROJECTS = [
     tags: ["React", "API", "CSS"],
     liveUrl: "https://cipher-weatherforecast.netlify.app/",
     githubUrl: "https://github.com/Official-CIPHER/Weather-Forecast",
+    featured: false,
+    category: "Frontend",
+  },
+  {
+    id: 10,
+    title: "My-Movie",
+    description:
+      "Movie search app using external API to display trending and searched movies.",
+    image: project4,
+    tags: ["React", "API", "Material UI"],
+    liveUrl: "https://mymovies-cipher.netlify.app/",
+    githubUrl: "https://github.com/Official-CIPHER/My-Movies",
     featured: false,
     category: "Frontend",
   },

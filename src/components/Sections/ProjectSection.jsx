@@ -16,7 +16,10 @@ const ProjectSection = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const filteredProjects = selectedCategory === "All"
     ? PROJECTS
-    : PROJECTS.filter((project) => project.category === selectedCategory);
+    : PROJECTS.filter((project) =>Array.isArray(project.category)
+        ? project.category.includes(selectedCategory)
+        : project.category === selectedCategory
+      );
 
 
   return (
@@ -79,7 +82,7 @@ const ProjectSection = () => {
 
         {/* ✅ Filter Buttons */}
         <div className="flex flex-wrap justify-center gap-4 my-12">
-          {["All", "Full-Stack", "Frontend", "Backend"].map((category) => (
+          {["All", "Full-Stack", "Frontend", "Backend","AI"].map((category) => (
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
