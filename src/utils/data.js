@@ -43,6 +43,7 @@ export const SKILLS = [
         level: 100,
         color: "from-yellow-400 to-yellow-600",
       },
+      { name: "Bootstrap", level: 100, color: "from-sky-400 to-sky-600" },
       { name: "React", level: 100, color: "from-sky-400 to-sky-600" },
       { name: "Tailwind", level: 100, color: "from-cyan-400 to-cyan-600" },
     ],
@@ -95,6 +96,7 @@ export const SKILLS = [
         color: "from-yellow-400 to-yellow-600",
       },
       { name: "C++", level: 100, color: "from-blue-500 to-blue-700" },
+      { name: "PHP", level: 100, color: "from-blue-500 to-blue-700" },
     ],
   },
 ];
